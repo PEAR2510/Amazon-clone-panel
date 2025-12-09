@@ -18,3 +18,4 @@ setInterval(() => {
     index = (index + 1) % images.length;
     document.getElementById("slider").src = images[index];
 }, 3000);
+
